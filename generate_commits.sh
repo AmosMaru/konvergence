@@ -147,10 +147,6 @@ echo "🐳 Committing deployment configs..."
 git add backend/Dockerfile backend/docker-compose.yaml backend/.github/ backend/nginx.sh
 commit_with_date "Add Docker configuration and deployment workflows" "$(generate_date)"
 
-# 25. Frontend deployment
-echo "🚀 Committing frontend deployment..."
-git add frontend/vercel.json frontend/generate_commits.sh
-commit_with_date "Add Vercel deployment configuration" "$(generate_date)"
 
 # 26. Final touches and documentation
 echo "📚 Committing final documentation..."
