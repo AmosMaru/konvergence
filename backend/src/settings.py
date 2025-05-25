@@ -321,8 +321,8 @@ GOOGLE_CLIENT_ID = os.environ.get('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.environ.get('GOOGLE_CLIENT_SECRET')
 GOOGLE_PROJECT_ID = os.environ.get('GOOGLE_PROJECT_ID')
 BASE_BACKEND_URL = os.environ.get('BASE_BACKEND_URL', 'http://localhost:8000')
-FRONT_END_URL = os.environ.get('FRONT_END_URL', 'https://uat.medicallearninghub.africa')
-CONSOLE_URL = os.environ.get('FRONT_END_CONSOLE_URL', 'https://uat.console.medicallearninghub.africa')
+FRONT_END_URL = os.environ.get('FRONT_END_URL', 'http://localhost:3000')
+CONSOLE_URL = os.environ.get('FRONT_END_CONSOLE_URL', 'http://localhost:3000')
 
 ADMIN_URL = os.environ.get('ADMIN_URL')
 

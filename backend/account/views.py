@@ -262,7 +262,7 @@ class PasswordReset(GenericAPIView):
 
     def send_mail(self, user: get_user_model(), reset_password_url: str) -> None:
         try:
-            subject = "Your request to reset your MLH account password| MLH (Medical Learning hub)"
+            subject = "Your request to reset your Appointment App account password"
             template_name = "reset_password.html"
             current_year = datetime.now().year
             context = {
