@@ -266,6 +266,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",              
     "http://127.0.0.1:5173",
     "http://localhost:4173",
+    "http://217.76.59.68:4174/",
     "http://127.0.0.1:4173",
 ]
 CORS_ORIGIN_ALLOW_ALL = False
@@ -281,6 +282,7 @@ CSRF_COOKIE_SAMESITE = 'Lax'
 
 CSRF_TRUSTED_ORIGINS = [
      "https://myhela.africa",
+     "http://217.76.59.68:4174"
     "http://217.76.59.68:7070",
     "http://localhost:3000",          
     "http://127.0.0.1:3000",             
