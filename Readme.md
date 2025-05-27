@@ -2,6 +2,9 @@
 
 A comprehensive healthcare platform for Appointment App featuring appointment booking, consultation management, AI-powered chatbot assistance, and patient management system.
 
+## Demo
+[Click here to view the demo](https://www.canva.com/design/DAGokUufqXk/4RWd1p4hC-wvNnYc93mZzA/view?utm_content=DAGokUufqXk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf37a4a30c8)
+
 ## 📋 Table of Contents
 
 - [Features](#features)
